@@ -1,0 +1,119 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ─────────────────────────────────────────
+# Virtual Environment
+# ─────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+Pipfile.lock
+
+# ─────────────────────────────────────────
+# Environment Variables
+# NEVER push this to GitHub
+# Contains your passwords and API keys
+# ─────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+
+# ─────────────────────────────────────────
+# Database
+# ─────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─────────────────────────────────────────
+# Data Files
+# Raw and processed data stays local
+# ─────────────────────────────────────────
+data/raw/
+data/processed/
+data/backup/
+*.csv
+*.json
+
+# ─────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ─────────────────────────────────────────
+# Jupyter Notebooks
+# ─────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─────────────────────────────────────────
+# VSCode
+# ─────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─────────────────────────────────────────
+# IDE and OS Files
+# ─────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ─────────────────────────────────────────
+# Airflow
+# ─────────────────────────────────────────
+airflow/logs/
+airflow/plugins/
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+webserver_config.py
+
+# ─────────────────────────────────────────
+# Docker
+# ─────────────────────────────────────────
+.docker/
+
+# ─────────────────────────────────────────
+# Testing
+# ─────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ─────────────────────────────────────────
+# Assets
+# Keep dashboard screenshot
+# ─────────────────────────────────────────
+assets/*.gif
+assets/*.mp4
+
+# ─────────────────────────────────────────
+# Streamlit
+# ─────────────────────────────────────────
+.streamlit/secrets.toml

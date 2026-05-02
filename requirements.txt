@@ -1,0 +1,12 @@
+pandas
+requests
+matplotlib
+plotly
+jupyterlab
+schedule
+ipykernel
+python-dotenv
+streamlit
+tqdm
+apache-airflow
+psycopg2-binary
