@@ -134,7 +134,7 @@ Five PostgreSQL tables store all metrics:
 
 **1. Clone and install**
 ```bash
-git clone https://github.com/yourusername/stablecoin-tracker.git
+git clone https://github.com/Ranky13/stablecoin-tracker
 cd stablecoin-tracker
 pip install -r requirements.txt
 
